@@ -1,0 +1,42 @@
+
+*{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+header,nav{
+    display: block;
+    background-color: rgb(178, 178, 235);
+    
+}
+
+aside, section, article {
+    
+    background-color: rgb(235, 191, 229);
+    float: left;
+    
+}
+aside, section {
+    display: inline-block;
+}
+aside{
+   width: 30%;
+   
+}
+
+section {
+    width: 70%;
+}
+footer {
+    background-color: rgb(247, 170, 170);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
